@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('exercicio/um', 
 [ExercicioUmController::class, 'multiplicar']);
+
+Route::get('exercicio/sete', 
+[ExercicioSeteController::class, 'exibirNumeros']);
